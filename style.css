@@ -1,0 +1,68 @@
+* {
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+}
+
+input {
+    width: 120px;
+    border: none;
+    font-size: 135px;
+    font-weight: bold;
+    color: black;
+    cursor: default;
+}
+
+.clock {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+#container {
+    text-align: center;
+}
+
+.timeBox {
+    padding-top: 20px; 
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.separator {
+    font-size: 130px;
+    color: rgb(175, 57, 57);
+    line-height: 30px;
+}
+
+.button {
+    background-color: rgb(48, 121, 48);
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.lapButton {
+    padding: 15px 180px;
+    background-color: chocolate;
+    margin-top: -30px;
+}
+.resetButton {
+    background-color: rgb(175, 57, 57);
+}
+.laps {
+    width: 90px;
+    height: 70px;
+    border: none;
+    padding: 0;
+    font-size: 110px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+hr {
+    width: 400px;
+}
